@@ -26,7 +26,7 @@ pipeline {
                 echo 'Job Complete!'
             }
         }
-        stage('Complete') {
+        stage('Automate') {
             steps {
                 echo 'Automatically Build'
             }
